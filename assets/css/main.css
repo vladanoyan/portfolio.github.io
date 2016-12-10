@@ -2104,7 +2104,7 @@
 			}
 
 				#nav ul li a.active span:before {
-					color: #eee;
+					color: #fff;
 				}
 
 /* Footer */
@@ -2158,11 +2158,12 @@
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					    color: inherit;
+					    color: #9ececc;
+					font-weight: bolder;
 				}
 
 				#main > section.dark strong {
-					    color: #8ebebc;
+					    color: rgba(139, 195, 74, 0.81);
    					 font-weight: bolder;
 					border-color: inherit;
 				}
