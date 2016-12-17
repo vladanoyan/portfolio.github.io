@@ -2088,12 +2088,7 @@
 				display: block;
 				font-size: 0.8em;
 			}
-#nav ul li a span:before:active {
-				color:rgba(139, 195, 74, 0.81);
-}
-#nav ul li a span:active {
-				color:rgba(139, 195, 74, 0.81);
-}
+
 				#nav ul li a span:before {
 					position: absolute;
 					left: 0;
@@ -2106,11 +2101,11 @@
 			#nav ul li a.active {
 				background: #eee;
 				box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-				color: #fff;
+				color:rgba(139, 195, 74, 0.81);
 			}
 
 				#nav ul li a.active span:before {
-					color: #fff;
+					color:rgba(139, 195, 74, 0.81);
 				}
 
 /* Footer */
