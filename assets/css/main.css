@@ -2281,8 +2281,11 @@
 			}
 
 			#logo .image {
-				position: relative;
-				margin: 0 0 0.5em 0;
+					border: 1px solid;
+	    position: relative;
+	    margin: 0 0 0.5em 0;
+	    border-radius: 33px;
+	    overflow: hidden;
 			}
 
 			#nav ul li a {
