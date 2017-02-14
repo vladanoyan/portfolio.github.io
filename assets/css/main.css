@@ -2547,7 +2547,7 @@
 					padding: 0 1em;
 				}
 	#inline
-		{display:inline-flex;}
+		{float:right;}
 		/* Footer */
 
 			#footer .copyright li {
