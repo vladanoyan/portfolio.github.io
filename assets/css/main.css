@@ -2546,7 +2546,8 @@
 				#main section.cover header {
 					padding: 0 1em;
 				}
-
+	#inline
+		{display:inline-flex};
 		/* Footer */
 
 			#footer .copyright li {
