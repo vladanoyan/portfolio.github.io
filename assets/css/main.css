@@ -2566,3 +2566,30 @@
 				}
 
 	}
+.third-section-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+ .carousel-area {
+        width: 100%;
+        margin: 20px 0 80px;
+}
+       .carousel-area img {
+            width: 350px;
+            border: 3px solid #d4d4d4;
+        }
+        .flipster__button{
+        	color: black!important;
+        	outline: none;
+        }
+        .link {
+            display: block;
+            color: black;
+            font-size: 18px;
+            margin-top: 7px;
+        }
+        .render{
+        	height: 458px;
+    		object-fit: cover;
+        }

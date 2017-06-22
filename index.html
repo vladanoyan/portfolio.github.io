@@ -11,6 +11,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+		<link rel="stylesheet" href="assets/css/jquery.flipster.min.css" />
+
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -130,7 +134,59 @@
 							</header>
 
 							<p>Check out some of my example works hosted on github</p>
+	<div class="container">
+  					<!-- third section footer -->
+                    <div class="third-section-footer">
+                    
+                        <div class="clearfix"></div>
 
+                        <div class="carousel-area">
+                            <div class="flip-carousel">
+                              <ul>
+                                  <li>
+                                      <img src="images/website-1.jpg"/>
+                                      <a class="link" href="http://www.mjb-immobilier.com/" target="_blank">MJB Immobilier</a>
+                                  </li>
+                                  <li>
+                                      <img class="render" src="images/RenderForest.png"/>
+                                      <a class="link" href="https://vladanoyan.github.io/websitemobile//" target="_blank">Render-Forest</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-2.jpg"/>
+                                      <a class="link" href="http://www.agence-augustins.com/" target="_blank">agence-augustins</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-4.jpg"/>
+                                      <a class="link" href="http://www.davin-immobilier-pertuis.com/" target="_blank">IMMOBILIER Davin Immobilier</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-5.jpg"/>
+                                      <a class="link" href="http://www.agence-ventoux-bedoin.com/" target="_blank">L'agence du Ventoux</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-9.jpg"/>
+                                      <a class="link" href="http://www.galerieimmo.com/" target="_blank">Galerie de l'immo</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-6.jpg"/>
+                                      <a class="link" href="http://www.immobiliere-stjerome.com//" target="_blank">L’agence Immobilière Saint-Jérôme</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-8.jpg"/>
+                                      <a class="link" href="http://dev.agence-sud-luberon.com//" target="_blank">agence-sud-luberon</a>
+                                  </li>
+                                  <li>
+                                      <img src="images/website-3.jpg"/>
+                                      <a class="link" href="http://ma-provence-immo.com/" target="_blank">ma-provence-immo</a>
+                                  </li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /third section footer -->
+                    </div>
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
@@ -253,8 +309,8 @@
 								</div>
 						</div>	
 					</section>
-
-				<!-- Contact -->
+				
+					<!-- Contact -->
 					<section id="contact" class="four">
 						<div class="container">
 
@@ -294,12 +350,30 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/owl.carousel.js"></script>
+			<script src="assets/js/jquery.flipster.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+<script>
+(function($) {
+	// carousels
+$('.flip-carousel').flipster({
+    style: 'carousel',
+    start: 0,
+    loop: true,
+    autoplay: 3000,
+    scrollwheel: false,
+    spacing: -0.5,
+    buttons: true,
+});
+// /carousels
 
+})(jQuery);
+</script>
 	</body>
 </html>
