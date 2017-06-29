@@ -1709,8 +1709,7 @@
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
-		}
+					}
 
 			.image.avatar48 img {
 				width: 48px;
@@ -1919,17 +1918,16 @@
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		button:hover,
-		.button:hover {
+		input[type="reset"]:hover{
 			background-color: #9ececc;
+		}
+		.flipster__button:hover {
+			background-color: transparent;
 		}
 
 		input[type="button"]:active,
 		input[type="submit"]:active,
-		input[type="reset"]:active,
-		button:active,
-		.button:active {
+		input[type="reset"]:active {
 			background-color: #7eaeac;
 		}
 
@@ -2593,4 +2591,8 @@
         .render{
         	height: 458px;
     		object-fit: cover;
+        }
+        .flipster__item__content img{
+        		height: 458px;
+        		object-fit: cover;
         }
