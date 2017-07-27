@@ -2603,4 +2603,5 @@
         .flipster__item__content img{
         		height: 458px;
         		object-fit: cover;
+        		display: block;
         }
