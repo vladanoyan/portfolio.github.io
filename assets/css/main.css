@@ -1707,13 +1707,13 @@
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 65px;
+			height: 65px;
 					}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 65px;
+				height: 65px;
 				border-radius: 50%;
 			}
 
