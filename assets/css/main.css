@@ -2168,7 +2168,7 @@
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					color: #fff;
 					font-weight: bolder;
-					text-shadow: 2px 2px 2px #000;
+					    text-shadow: 1px 1px 0px #fff;
 				}
 
 				#main > section.dark strong {
